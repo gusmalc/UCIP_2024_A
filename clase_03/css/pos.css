@@ -32,3 +32,47 @@ body {
 #caja1:hover{
     background: #214b08;
 }
+
+#caja2{
+    width: 300px;
+    height: 300px;
+    background: #214b08;   
+    position: relative; 
+    /* overflow:  hidden; */
+}
+#caja2b{
+    width: 100px;
+    height: 100px;
+    background: rgb(177, 166, 14, 0.3);
+    position: absolute;
+    bottom: 10px;
+    right: -50px;
+    font-size: 4rem;
+    color: #222;
+    /* opacity: 0.5; */
+}
+
+#caja3{
+    width: 300px;
+    height: 100px;
+    background: #b1a60e;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+#caja4{
+    width: 300px;
+    height: 100px;
+    background: #b1340e;
+    position: sticky;
+    top: 0px;
+    z-index: 99999;
+}
+
+#caja5{
+    width: 300px;
+    height: 100px;
+    background: #0eb19b;
+    z-index: 999999999999999;
+    position: relative;
+}
