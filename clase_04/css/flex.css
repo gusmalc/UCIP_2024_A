@@ -1,0 +1,69 @@
+:root{
+    --color-1: #fff;
+    --color-2: #222;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    padding: 0;
+    margin: 0;
+   
+}
+.caja{
+    width: 100%;
+    height: 100px;
+    background: #f00;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+@media (min-width: 992px) {
+    .caja{
+        width: 25%;
+    }
+    #contenedor{
+        flex-direction: row;
+    }
+} 
+
+
+
+.caja2{
+    width: 100px;
+    height: 100px;
+    background: #80ff00;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+
+#portada{
+    background: #0a61d3;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+}
