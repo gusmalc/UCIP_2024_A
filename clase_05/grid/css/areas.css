@@ -1,0 +1,92 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#box{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "hh hh"
+                         "mm mm" 
+                         "aa aa"
+                         "s1 s2 "
+                         "ff ff";                            
+}
+@media (min-width: 992px) {
+    #box{
+        padding-left: 4rem;
+        padding-right: 4rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "hh hh hh"
+                             "mm mm aa" 
+                             "s1 s2 aa"
+                             "ff ff ff";                            
+    }
+} 
+#top{
+    grid-area: hh;
+    background: #ff0;
+    height: 100px;
+}
+#main{
+    grid-area: mm;
+    background: #15ff00;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+#serv1{
+    grid-area: s1;
+    background: #d400ff;
+    height: 200px;
+}
+#serv2{
+    grid-area: s2;
+    background: #00ffe5;
+    height: 200px;
+}
+#pie{
+    grid-area: ff;
+    background: #222;
+    height: 200px;
+}
+#lateral{
+    grid-area: aa;
+    background: #d40909;
+    /* height: 200px; */
+}
+
+
+/* teclado */
+
+#teclado{
+    display: grid;
+    width: 430px;
+    height: 430px;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    background: #222;
+}
+.tecla{
+    width: 100px;
+    height: 100px;
+    background: #d400ff;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
