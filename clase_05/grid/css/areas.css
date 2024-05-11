@@ -1,4 +1,6 @@
-
+:root{
+    --color-1: #f00;
+}
 *,
 *::before,
 *::after {
