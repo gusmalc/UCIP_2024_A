@@ -1,0 +1,49 @@
+#rectangulo{
+    width: 100px;
+    height: 30px;
+    background-color: #0f0;
+    transition: all 2s ease;
+    
+}
+
+#rectangulo:hover{
+    /* transform: translateX(20px); */
+    width: 500px;
+}
+
+
+
+#pelota{
+    width: 100px;
+    height: 100px;
+    background: #0f0;
+    border-radius: 50%;
+}
+
+.an1{
+    animation-name: pel;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;    
+}
+/* @keyframes pel{
+    from{
+       transform: translateX(0px);
+    }
+    to{
+        transform: translateX(250px);
+    }    
+} */
+
+@keyframes pel{
+    0%{
+       transform: translateX(0px);
+    }
+    50%{
+        transform: translateY(50px); 
+    }
+    100%{
+        transform: translateX(250px);
+    }    
+}

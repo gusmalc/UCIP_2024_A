@@ -1,0 +1,9 @@
+#caja_titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nombre{
+    color: #f00;
+}
