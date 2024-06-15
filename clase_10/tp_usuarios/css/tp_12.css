@@ -1,0 +1,32 @@
+body{
+    background: #e9e7e7;
+}
+#top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+#filtro{
+    overflow: none;
+}
+
+.ficha_usuario{
+    background: #222;
+    color: #fff;
+    padding: 20px;
+}
+
+tbody>tr{
+    cursor: pointer;
+}
+
+.filtro_txt{
+    transition: all 0.6s ease;
+}
+
+.fuera{
+    transform: translateX(3000px) !important;
+}
