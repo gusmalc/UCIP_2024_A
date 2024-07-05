@@ -1,0 +1,13 @@
+body{
+    background: #fff;
+}
+
+.logo_menu{
+    width: 100px;
+}
+
+@media (min-width: 992px) {
+    .logo_menu{
+        width: 140px;
+    }
+  } 
