@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container">
     <a class="navbar-brand" href="<?php echo $site_url; ?>">
-      <img class="logo_menu" src="https://img.malcotti.com/imagenes/Logos_Doonas/logo_doop.svg" alt="">
+      <img class="logo_menu" src="<?php echo $site_url . "assets/img/manzana.svg"; ?>" alt="">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

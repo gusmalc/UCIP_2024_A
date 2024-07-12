@@ -1,13 +1,43 @@
-body{
-    background: #fff;
+:root{
+    --color-1: #e70000;
+    --color-2: #457DA0;
+    --color-3: #F5F218;
+}
+
+
+
+main{
+    min-height: 700px;
 }
 
 .logo_menu{
-    width: 100px;
+    width: 40px;
 }
-
+.whats{
+    fill: #0f0;
+}
+.whats:hover{
+    fill: #176e17;
+}
+#box_wa{
+    position: fixed;
+    bottom: 20px;
+    right: 1rem;
+    width: 50px;
+}
 @media (min-width: 992px) {
     .logo_menu{
-        width: 140px;
+        width: 60px;
+    }
+    #box_wa{
+        position: fixed;
+        bottom: 20px;
+        right: 4rem;
+        width: 50px;
     }
   } 
+
+footer{
+    background: var(--color-2);
+    min-height: 100px;
+}
