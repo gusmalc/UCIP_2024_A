@@ -6,17 +6,15 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <div class="collapse navbar-collapse justify-content-md-end" id="navbarSupportedContent">
+      <ul class="navbar-nav ">
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="<?php echo $site_url; ?>">Inicio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?php echo $site_url . "quienes-somos/"; ?>">Nosotros</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="<?php echo $site_url . "contacto/"; ?>">Contacto</a>
-        </li>
+        
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -28,7 +26,9 @@
             <li><a class="dropdown-item" href="#">Doblado de Bananas</a></li>
           </ul>
         </li>
-
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo $site_url . "contacto/"; ?>">Contacto</a>
+        </li>
        
       </ul>
       
