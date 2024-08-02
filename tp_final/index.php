@@ -20,12 +20,7 @@
     <?php include "home/sections/portada.php"; ?>
     <?php include "home/sections/servicios.php"; ?>
 
-    <main>
-        <div class="container">
-        <h1>Home</h1>
-        
-        </div>
-    </main>
+    
 
     
     

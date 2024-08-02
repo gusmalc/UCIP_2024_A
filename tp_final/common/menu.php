@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
   <div class="container">
     <a class="navbar-brand" href="<?php echo $site_url; ?>">
       <img class="logo_menu" src="<?php echo $site_url . "assets/img/manzana.svg"; ?>" alt="">

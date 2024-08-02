@@ -7,7 +7,7 @@
 
 
 main{
-    min-height: 700px;
+    padding-top: 100px;
 }
 
 .logo_menu{
@@ -41,3 +41,4 @@ footer{
     background: var(--color-2);
     min-height: 100px;
 }
+

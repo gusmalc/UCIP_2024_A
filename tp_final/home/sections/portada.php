@@ -6,3 +6,5 @@
         Hola Mundo
     </div>
 </section>
+
+<div id="espacio_portada"></div>

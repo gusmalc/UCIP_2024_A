@@ -1,15 +1,32 @@
 #img_portada{
     width: 100%;
+    /* filter: grayscale(100%); */
+}
+/* #img_portada:hover{
+    filter: grayscale(0%);
+} */
+#box_servicios{
+    background: #f00;
+    position: relative;
+    z-index: 1000;
 }
 
 #servicios{
     padding-top: 50px;
+    padding-bottom: 50px;
+    
 }
-
+#espacio_portada{
+    height: 100vh;
+}
 #portada{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    position: fixed;
+    top: 60px;
+    left: 0px;
+    z-index: -999999999;
 }
 
 #portada>div{
@@ -21,4 +38,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.card-img-top{
+    filter: grayscale(100%);
+}
+
+.card-img-top:hover{
+    filter: grayscale(0%);
+   /*  width: 200%; */
+}
+
+.card{
+    overflow: hidden;
 }
